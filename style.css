@@ -1,0 +1,42 @@
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-family: monospace;
+  font-size: 130%;
+  font-weight: lighter;
+  /* uncomment for ~vibes~
+   * text-transform: lowercase;*/
+}
+a {
+  color: pink;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+i {
+  color: #7f7f7f;
+  text-transform: lowercase;
+}
+h1,h2,h3 {
+  font-family: "Menlo";
+  color: #7f7f7f;
+}
+ul {
+  text-align: left;
+  /* for use with text-align:center in body
+  display: inline-block;
+  margin-top: 0;
+  */
+}
+img {
+  align: center; /* not sure about this yet with the UL stuff */
+}
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    color: #ddd;
+    background: #222;
+  }
+}
